@@ -63,13 +63,14 @@ streamlit run dashboard.py
 🧱 Project Architecture
 competitive_intel_tracker/
 │
-├── main/                 # Core logic and agent pipeline
-├── run_ci.py             # Orchestrator script
-├── dashboard.py          # Streamlit dashboard
-├── utils/                # Helper modules
-├── database.sqlite       # Local data storage
-├── requirements.txt
+├── main/                 # Core AI agent logic and orchestrator
+├── run_ci.py             # Pipeline orchestration script
+├── dashboard.py          # Streamlit dashboard for visualization
+├── utils/                # Helper modules and utilities
+├── database.sqlite       # SQLite for persistent storage
+├── requirements.txt      # Python dependencies
 └── README.md
+
 
 🏆 Hackathon Objectives
 
@@ -204,6 +205,7 @@ Launch the Dashboard
 
 streamlit run dashboard.py
 
+
 🧪 Workflow Summary
 
 The system scrapes competitor content across websites, social media, and press releases.
@@ -241,14 +243,6 @@ Slack & Telegram notifications
 
 Streamlit dashboard interaction
 
-📥 Access the Full Project
-
-To explore or run our project locally:
-
-➡️ Download the ZIP file directly from GitHub:
-🔗 Download Complete Project Code
-
-Unzip it and follow the Installation & Setup steps above to run the project instantly.
 
 🏆 Hackathon Goals
 
@@ -260,6 +254,7 @@ Unzip it and follow the Installation & Setup steps above to run the project inst
 
 ✅ Visualize intelligence trends via Streamlit dashboard
 
+
 🔮 Future Roadmap
 
 🌍 Expand data sources: LinkedIn, ProductHunt, Crunchbase
@@ -269,6 +264,7 @@ Unzip it and follow the Installation & Setup steps above to run the project inst
 🗣️ Integrate voice-based agent reporting
 
 ☁️ Deploy dashboard to Streamlit Cloud or AWS for real-time access
+
 
 🏷️ Hashtags
 
