@@ -1,98 +1,74 @@
-# competitive_intel_tracker
-
-
 🧠 Competitive Intelligence Tracker for Startups
 
-AI Agent Hackathon 2025 Project — Empowering startups with actionable, real-time competitive intelligence.
+
 
 🚀 Overview
 
-Startups face a constant challenge: competitors launch new features, update pricing, and run marketing campaigns at lightning speed. Keeping track manually is nearly impossible and can lead to missed opportunities or strategic missteps.
+Startups struggle to keep track of competitors’ product launches, feature updates, and marketing campaigns.
+Competitive Intelligence Tracker is an AI-powered solution that monitors competitors’ websites, social media, and press releases — summarizes key updates, and sends actionable insights via Slack, Telegram, and an interactive Streamlit dashboard.
 
-The Competitive Intelligence Tracker solves this problem by:
+Goal: Turn scattered competitor data into structured, actionable intelligence for startup decision-makers.
 
-Monitoring competitor websites, blogs, social media, and press releases
+🧩 Key Features
 
-Detecting meaningful changes automatically
+🌐 Real-Time Monitoring: Websites, blogs, Twitter, Reddit, and news portals.
 
-Summarizing insights via AI into actionable intelligence
+🤖 AI Summarization: Highlights critical updates with NLP & Gemini API.
 
-Delivering alerts through Slack, Telegram, and Streamlit dashboard
+💬 Slack & Telegram Alerts: Instant notifications for the team.
 
-This ensures startup teams are proactive, not reactive, making smarter decisions faster.
+📊 Streamlit Dashboard: Trend visualization, competitor movements, actionable metrics.
 
-🧩 Core Features
+🗄️ Persistent Storage: SQLite database for historical and analytical purposes.
 
-🌐 Smart Monitoring: Real-time scraping of competitor websites, blogs, Twitter, Reddit, and news portals.
+⚙️ Installation & Run
 
-🤖 AI-Powered Summarization: Uses NLP and Gemini API to convert raw updates into structured intelligence.
-
-💬 Multi-Channel Notifications: Slack and Telegram alerts ensure your team sees critical updates instantly.
-
-📊 Interactive Dashboard: Streamlit interface visualizes trends, competitor movements, and actionable insights.
-
-🗄️ Persistent Storage: SQLite database stores historical snapshots and AI-analyzed summaries.
-
-🧰 Tech Stack
-Layer	Technology
-Frontend / Visualization	Streamlit
-Backend / AI Agents	Python (LangChain, OpenAI API, BeautifulSoup, Requests)
-Database	SQLite
-Integrations	Slack API, Telegram Bot API
-Automation	Python Scheduler / Cron Jobs
-Version Control	Git & GitHub
-⚙️ Installation & Setup
-
-Clone the Repository
+Clone Repo:
 
 git clone https://github.com/Projects6677/competitive_intel_tracker.git
 cd competitive_intel_tracker
 
 
-Install Dependencies
+Install Dependencies:
 
 pip install -r requirements.txt
 
 
-Run the Core Intelligence Pipeline
+Run Core Pipeline:
 
 python run_ci.py
 
 
-Launch the Dashboard
+Launch Streamlit Dashboard:
 
 streamlit run dashboard.py
 
+🧪 Workflow
 
-🧪 Workflow Summary
+Scrapes competitor content across multiple channels.
 
-The system scrapes competitor content across websites, social media, and press releases.
+AI agent analyzes and summarizes changes.
 
-AI agents analyze the differences, extract relevant updates, and summarize them intelligently.
+Sends instant notifications via Slack/Telegram.
 
-Notifications are sent to Slack or Telegram for instant team visibility.
+Streamlit dashboard displays insights, trends, and analytics.
 
-Streamlit dashboard presents interactive visualization for trends, competitive moves, and strategic insights.
-
-🏗️ Project Architecture
+🏗️ Project Structure
 competitive_intel_tracker/
 │
-├── main/                 # Core AI agent logic and orchestrator
-├── run_ci.py             # Pipeline orchestration script
-├── dashboard.py          # Streamlit dashboard for visualization
-├── utils/                # Helper modules and utilities
-├── database.sqlite       # SQLite for persistent storage
-├── requirements.txt      # Python dependencies
+├── main/                 # Core pipeline logic
+├── run_ci.py             # Orchestrator script
+├── dashboard.py          # Streamlit dashboard
+├── utils/                # Helper modules
+├── database.sqlite       # Local storage
+├── requirements.txt
 └── README.md
-
 
 🎥 Demo Video
 
-See the Competitive Intelligence Tracker in action — from real-time monitoring to Slack alerts and Streamlit visualization:
+Experience the tracker live in action — real-time competitor monitoring, AI summarization, Slack alerts, and dashboard analytics:
 
-🎬 Watch Demo on YouTube
-
-The demo showcases:
+The demo showcases:https://youtu.be/fAN2hSShfMY
 
 Automated competitor scraping
 
@@ -102,28 +78,32 @@ Slack & Telegram notifications
 
 Streamlit dashboard interaction
 
+📥 Access the Full Project
+
+➡️ Download the ZIP file from GitHub:
+🔗 https://github.com/Projects6677/competitive_intel_tracker/archive/refs/heads/main.zip
+
+Unzip and follow the Installation & Run steps above.
 
 🏆 Hackathon Goals
 
-✅ Build a modular AI agent pipeline
+Modular AI agent pipeline
 
-✅ Automate daily competitive insights for startups
+Automated competitor insights for startups
 
-✅ Deliver actionable alerts via Slack & Telegram
+Real-time Slack/Telegram notifications
 
-✅ Visualize intelligence trends via Streamlit dashboard
-
+Streamlit visualization for actionable intelligence
 
 🔮 Future Roadmap
 
-🌍 Expand data sources: LinkedIn, ProductHunt, Crunchbase
+Expand data sources (LinkedIn, ProductHunt, Crunchbase)
 
-📨 Add email-based AI digests
+Add email digest summaries
 
-🗣️ Integrate voice-based agent reporting
+Voice-based AI reporting
 
-☁️ Deploy dashboard to Streamlit Cloud or AWS for real-time access
-
+Cloud deployment via Streamlit Cloud or AWS
 
 🏷️ Hashtags
 
